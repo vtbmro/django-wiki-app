@@ -1,0 +1,10 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+{% endblock %}
+
+{% block body %}
+    {{ html | safe }}
+    <a href="/editpage/{{search}}">Edit page</a>
+    <!-- Redirect to a editpage.html -->
+{% endblock %}
